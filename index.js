@@ -1,4 +1,4 @@
-const companyName='scuber;
+const companyName='scuber'
 
 let mostProfitableNeighborhood=chelsea
 
