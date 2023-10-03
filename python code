@@ -1,0 +1,15 @@
+from tkinter import *
+from PIL import Image, ImageTk
+from tkinter import filedialog
+import object_detection as object_detection as od
+import imageio
+import cv2
+class window(Frame):
+def__init__(self,master=none):
+Frame__init__(self,master)
+self.master=master
+self.pos=[]
+self.line=[]
+self.rect=[]
+self.master.title("GUI")
+self.pack(fill=Both,expand=1)
